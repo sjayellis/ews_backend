@@ -1,0 +1,9 @@
+molecule  {{ molecule }}
+
+set basis {{ basis_set }}
+
+set reference {{ reference }}
+
+set freeze_core {{ freeze_core }}
+
+{{ calculation }}('{{ method }}')
